@@ -1,9 +1,8 @@
 ---
-title: "Presentation Xiaoyun"
-subtitle: "⚔<br/>with xaringan"
+title: "Pre Xiaoyun's Part"
 author: "Xiaoyun Gong"
-institute: "RStudio, PBC"
-date: "2016/12/12 (updated: `r Sys.Date()`)"
+Group: "Queen"
+
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -13,5 +12,42 @@ output:
       countIncrementalSlides: false
 ---
 
-# Part1
+# Budget-
 
+```{r}
+library(readr)
+table = read_csv("pre1.csv")
+knitr::kable(head(table), format = 'html')
+```
+
+---
+# Budget-Governance Projects 
+
+
+---
+# Summary
+Final suggestions
+
+---
+# Risks and Limitations
+.pull-left[
+  Risks:
+  
+1. List
+
+1. List 
+
+1.
+  
+]
+
+.pull-right[
+  Limitations:
+  
+1. Slow onset natural disasters cannot be fully solved. 
+
+1. Data time limitations.
+
+1.
+  
+]

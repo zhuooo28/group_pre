@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>Presentation Xiaoyun</title>
+    <title>Pre Xiaoyun’s Part</title>
     <meta charset="utf-8" />
     <meta name="author" content="Xiaoyun Gong" />
     <script src="libs/header-attrs-2.25/header-attrs.js"></script>
@@ -13,26 +13,140 @@
 class: center, middle, inverse, title-slide
 
 .title[
-# Presentation Xiaoyun
-]
-.subtitle[
-## ⚔<br/>with xaringan
+# Pre Xiaoyun’s Part
 ]
 .author[
 ### Xiaoyun Gong
-]
-.institute[
-### RStudio, PBC
-]
-.date[
-### 2016/12/12 (updated: 2024-03-12)
 ]
 
 ---
 
 
-# Part1
+# Budget-
 
+
+```r
+library(readr)
+```
+
+```
+## Warning: 程辑包'readr'是用R版本4.3.3 来建造的
+```
+
+```r
+table = read_csv("pre1.csv")
+```
+
+```
+## Rows: 7 Columns: 6
+## ── Column specification ────────────────────────────────────────────────────────
+## Delimiter: ","
+## chr (3): Role , Number , Day Rate 
+## dbl (1): Total Cost 
+## lgl (2): Capacity , Estimate Working Days 
+## 
+## ℹ Use `spec()` to retrieve the full column specification for this data.
+## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+```
+
+```r
+knitr::kable(head(table), format = 'html')
+```
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; Role  &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Number  &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Capacity  &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Day Rate  &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Estimate Working Days  &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; Total Cost  &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Poject Manager  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; NA &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Geospatial Analyst  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 4 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; NA &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Promotional Staff &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; volunteers &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; voluntary &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Local Authority  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; NA &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; NA &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Additional Costs (Travel, )  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; NA &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+# Budget-Governance Projects 
+
+
+---
+# Summary
+Final suggestions
+
+---
+# Risks and Limitations
+.pull-left[
+  Risks:
+  
+1. List
+
+1. List 
+
+1.
+  
+]
+
+.pull-right[
+  Limitations:
+  
+1. Slow onset natural disasters cannot be fully solved. 
+
+1. Data time limitations.
+
+1.
+  
+]
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
