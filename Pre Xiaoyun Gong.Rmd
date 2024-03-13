@@ -1,0 +1,61 @@
+---
+title: "Pre Xiaoyun's Part"
+author: "Xiaoyun Gong"
+Group: "Queen"
+
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+# Budget-
+
+```{r echo=FALSE, message=FALSE}
+library(readr)
+library(knitr)
+table1<- read_csv("pre1.csv")
+kable(table1, "html")
+table2<- read_csv("pre2.csv")
+kable(table2, "html")
+```
+
+---
+# Budget-Governance Projects 
+```{r echo=FALSE, message=FALSE}
+library(readr)
+library(knitr)
+table2<- read_csv("pre2.csv")
+kable(table2, "html")
+```
+
+---
+# Summary
+Final suggestions
+
+---
+# Risks and Limitations
+.pull-left[
+  Risks:
+  
+1. List
+
+1. List 
+
+1.
+  
+]
+
+.pull-right[
+  Limitations:
+  
+1. Slow onset natural disasters cannot be fully solved. 
+
+1. Data time limitations.
+
+1.
+  
+]
