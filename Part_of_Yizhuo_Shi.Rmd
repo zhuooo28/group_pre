@@ -35,7 +35,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ---
 #Project Gantt Chart
 <figure>
-<img src="figures/gantt.png" width="150%" style="display: block; margin: auto;" /><figcaption>Gantt Chart of Whole Project</figcaption>
+<img src="figures/gantt.png" width="100%" style="display: block; margin: auto;" /><figcaption>Gantt Chart of Whole Project</figcaption>
 <figure>
 ---
 #References
