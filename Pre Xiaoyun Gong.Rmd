@@ -14,15 +14,23 @@ output:
 
 # Budget-
 
-```{r}
+```{r echo=FALSE, message=FALSE}
 library(readr)
-table = read_csv("pre1.csv")
-knitr::kable(head(table), format = 'html')
+library(knitr)
+table1<- read_csv("pre1.csv")
+kable(table1, "html")
+table2<- read_csv("pre2.csv")
+kable(table2, "html")
 ```
 
 ---
 # Budget-Governance Projects 
-
+```{r echo=FALSE, message=FALSE}
+library(readr)
+library(knitr)
+table2<- read_csv("pre2.csv")
+kable(table2, "html")
+```
 
 ---
 # Summary
