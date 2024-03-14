@@ -29,7 +29,7 @@ output:
 ---
 # Risks and Limitations
 .pull-left[
-  Risks:
+  ### Risks:
   
 1. Financial Constraints
 
@@ -42,7 +42,7 @@ output:
 ]
 
 .pull-right[
-  Limitations:
+  ### Limitations:
   
 1. Slow onset natural disasters cannot be fully solved. 
 
