@@ -13,15 +13,18 @@ output:
 ---
 
 # Budget-Employees
-![](img/table1.jfif)
+![](figures/table1.jfif)
 
 ---
 # Budget-Projects 
-![](img/table2.jfif)
+![](figures/table2.jfif)
 
 ---
 # Summary
 ## Final suggestions：
+To effectively address Jakarta's environmental and infrastructural challenges, a comprehensive approach is needed that includes strict water management policies to limit groundwater extraction and the incorporation of more and better green spaces, as well as limit transportation and industrial emissions. 
+
+32,000/50,000 
 
 
 
