@@ -40,12 +40,6 @@ myBib <- ReadBib("./references.bib", check = FALSE)
 ![Approach](figures/approach.png)
 
 ---
-# Methodology
-![Methodology](figures/methodology.png)
-
-
-
----
 class: center, middle
 #Data Colloction
 ---
@@ -64,6 +58,9 @@ class: center, middle
 | Sea level change  | Infrared and microwave sensors Jason-3 | 3cm | near real-time  |free | Data Analysis(python)  |
 | Land subsidence | SAR Sentinel 1A  | 10m | weekly | free | Harmonic Analysis, Method of Least Squares `r Citet(myBib, 'siregar2019monitoring')` |
 | Rainfall  | Climate Change Knowledge Portal    | mm  | per year  |free  | N/A |
+---
+# Methodology
+![Methodology](figures/methodology.png)
 ---
 #Methodology
 ##Sea level rise analysis
