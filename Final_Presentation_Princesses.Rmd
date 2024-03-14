@@ -85,7 +85,7 @@ class: center, middle
 <img src="figures/Gantt.png" width="100%" style="display: block; margin: auto;" /><figcaption>Gantt Chart of Whole Project. Timeline: 2025.01-2025.10</figcaption>
 <figure>
 ---
-# Budget-Employees1
+# Budget-Employees
 ![](figures/table1.png)
 ---
 # Budget-Projects 
