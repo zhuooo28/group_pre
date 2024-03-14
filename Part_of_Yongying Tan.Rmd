@@ -1,0 +1,63 @@
+---
+title: "Presentation__"
+author: "Yongying Tan"
+date: "2024/3/14 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+## Improving Compliance/Adherence with Development Agendas/Goals
+
+ Integrated Flood Safety Plan (IFSP)
+ 
+ Strategy for Air Pollution Control (SPPU)
+
+· Water management: As the widespread pumping of groundwater is the human factor of sinking and flooding, it is necessary to pretend residents from doing it and worsen the situation.
+
+· Planting trees: Investing in green infrastructure and planting trees will mitigate subsidence and enhance urban resilience, aligning with global climate action and sustainable city planning.
+
+
+---
+## Benefits
+.pull-left[* Greenery
+
+* Reducing emissions: 
+
+1. Governing air pollution controls
+.
+2. Reducing emissions from mobile sources.
+
+3. Reducing emissions from stationary sources.
+
+* City and Population：
+
+1. Reducing land subsidence and controlling sea level rise 
+
+2. Improved infrastructure
+
+3. Pollution management]
+
+```{r echo=FALSE, out.width='50%', fig.show='hold', fig.align= 'right'}
+knitr::include_graphics("https://www.mwmo.org/wp-content/uploads/2017/03/trees-and-stormwater-diagram-basic-v2-nb.png")
+```
+
+---
+## Risks
+
+1.Financial Constraints: Implementing solutions like effective water management, desalination of seawater, and investing in green infrastructure may require substantial financial investment. The cost and sources of funding for these projects could be a significant limitation.
+
+2.Technical Challenges: The feasibility of implementing proposed solutions, such as the effectiveness of desalination in a large-scale urban context or the impact of green infrastructure on significantly mitigating land subsidence, might present technical limitations.
+
+3.Environmental Impacts: While the solutions aim to address environmental issues, they could have unintended negative impacts. For example, large-scale desalination can affect marine ecosystems and biodiversity.
+
+4.Long-term Sustainability: The long-term effectiveness and sustainability of the proposed solutions in the face of ongoing climate change and urban development pressures might be uncertain.
+
+
+
+
+
+
