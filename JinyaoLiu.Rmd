@@ -11,7 +11,7 @@ output:
       countIncrementalSlides: false
 
 ---
-class: inverse, center, middle
+class: center, middle
 
 ```{r setup, include=FALSE}
 library(RefManageR)
