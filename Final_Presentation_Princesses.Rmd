@@ -1,7 +1,4 @@
 ---
-title: "Land Subsidence and Sea Level Rise Analysis in Jakarta"
-subtitle: "CASA0023 Group Presentation"
-author: "Group: Princesses"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -9,9 +6,17 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      
 ---
-class: center, middle
+class: center, title-slide,middle
+background-image:url("figures/Jakarta3.jpeg")
+background-size:cover
+background-position: center
 
+# Land Subsidence and Sea Level Rise Analysis in Jakarta
+## <br/>CASA0023 Group Presentation
+### <br/>Group: Princesses
+---
 ```{r setup, include=FALSE}
 library(RefManageR)
 library(knitcitations)
