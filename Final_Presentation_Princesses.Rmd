@@ -1,6 +1,7 @@
 ---
-title: "Jakarta"
-subtitle: " "
+title: "Land Subsidence and Sea Level Rise Analysis in Jakarta"
+subtitle: "CASA0023 Group Presentation"
+author: "Group: Princesses"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -9,11 +10,37 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 ---
+class: center, middle
 
 ```{r setup, include=FALSE}
+library(RefManageR)
+library(knitcitations)
+
 options(htmltools.dir.version = FALSE)
-knitr::opts_chunk$set(echo = FALSE) 
+
+# Citing Options
+BibOptions(check.entries = FALSE,
+           bib.style = "authoryear",
+           cite.style = "authoryear",
+           style = "markdown",
+           hyperlink = TRUE,
+           dashed = FALSE,
+           no.print.fields=c("doi", "url", "urldate", "issn"))
+myBib <- ReadBib("./references.bib", check = FALSE)
+
 ```
+
+
+# Approach
+![Approach](figures/approach.png)
+
+---
+# Methodology
+![Methodology](figures/methodology.png)
+
+
+
+---
 #Methodology
 ##Sea level rise analysis
 ###1.Synthetic Aperture Radar (SAR)
@@ -33,12 +60,65 @@ knitr::opts_chunk$set(echo = FALSE)
 <img src="figures/jason3.jpeg" width="50%" style="display: block; margin: auto;" /><figcaption>Example of the first Jason-3 map. Source: NASA Sea Level Change Portal (n.d.)</figcaption>
 <figure>
 ---
+class: center, middle
+#Data Colloction
+---
+```{css, echo=FALSE}
+.table-slide {
+  max-width: 100%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the table */
+}
+```
+
+
+| Goal | Data resources | Spatial resolution | Temporal resolution | Data charge | Handling method |
+|----------|----------|----------|----------|----------|----------|
+|  Carbon dioxide emissions | Our world in data    | t/capita   | per year  |free  | Data Analysis(python) `r Citet(myBib, 'SHUKLA201799')` |
+| Nitrogen dioxide emission | Earth Engine Apps | mw | daily | free| N/A |
+| Sea level change  | Infrared and microwave sensors Jason-3 | 3cm | near real-time  |free | Data Analysis(python)  |
+| Land subsidence | SAR Sentinel 1A  | 10m | weekly | free | Harmonic Analysis, Method of Least Squares `r Citet(myBib, 'siregar2019monitoring')` |
+| Rainfall  | Climate Change Knowledge Portal    | mm  | per year  |free  | N/A |
+---
 #Project Gantt Chart
 <figure>
 <img src="figures/Gantt.png" width="100%" style="display: block; margin: auto;" /><figcaption>Gantt Chart of Whole Project</figcaption>
 <figure>
 ---
-#References
-<p style="font-size:1.1em;">Moradi, A., Somayeh Emadodin, Beitollahi, A., Hadi Abdolazimi and Ghods, B. (2023). Assessments of land subsidence in Tehran metropolitan, Iran, using Sentinel-1A InSAR. Environmental Earth Sciences, 82(23). doi:https://doi.org/10.1007/s12665-023-11225-2. 
-<p style="font-size:1.1em;">NASA Sea Level Change Portal. (n.d.). Jason-3 begins mapping the ocean. [online] Available at: https://sealevel.nasa.gov/resources/82/jason-3-begins-mapping-the-ocean/ [Accessed 13 Mar. 2024].
+# Budget-Employees
+![](figures/table1.png)
+---
+# Budget-Projects 
 
+![](figures/table2.png)
+
+
+---
+# Summary
+## Final suggestions：
+
+
+
+---
+# Risks and Limitations
+.pull-left[
+  ###Risks:
+  
+1. Financial Constraints
+
+1. Technical Challenges
+
+1. Environmental Impacts
+
+1. Long-term Sustainability
+  
+]
+
+.pull-right[
+  ###Limitations:
+  
+1. Slow onset natural disasters cannot be fully solved. 
+
+1. Data time limitations.
+
+  
+]
