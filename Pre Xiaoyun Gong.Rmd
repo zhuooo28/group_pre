@@ -13,15 +13,23 @@ output:
 ---
 
 # Budget-Employees
-![](img/table1.jfif)
+![](figures/table1.jfif)
 
 ---
 # Budget-Projects 
-![](img/table2.jfif)
+![](figures/table2.jfif)
 
 ---
 # Summary
 ## Final suggestions：
+* Keeping using remote sensing to detect land subsidence and sea level rise.
+* Setting strict water resource management policies.
+* Limiting the exploitation of groundwater.
+* Providing more and better green spaces
+* Limiting traffic and industrial emissions.
+
+## Final Costs：
+£32,000/£50,000  
 
 
 
@@ -43,7 +51,7 @@ output:
 .pull-right[
   ### Limitations:
   
-1. Slow onset natural disasters cannot be fully solved. 
+1. Slow-onset natural disasters cannot be fully solved. 
 
 1. Data time limitations.
 
