@@ -54,7 +54,7 @@ myBib <- ReadBib("./references.bib", check = FALSE)
 | Goal | Data resources | Spatial resolution | Temporal resolution | Data charge | Handling method |
 |----------|----------|----------|----------|----------|----------|
 |  Carbon dioxide emissions | Our world in data    | t/capita   | per year  |free  | Data Analysis(python) `r Citet(myBib, 'SHUKLA201799')` |
-| Nitrogen dioxide emission | aaaaa | aaaa | aaaa | free| N/A |
+| Nitrogen dioxide emission | Earth Engine Apps | mw | daily | free| N/A |
 | Sea level change  | Infrared and microwave sensors Jason-3 | 3cm | near real-time  |free | Data Analysis(python)  |
 | Land subsidence | SAR Sentinel 1A  | 10m | weekly | free | Harmonic Analysis, Method of Least Squares `r Citet(myBib, 'siregar2019monitoring')` |
 | Rainfall  | Climate Change Knowledge Portal    | mm  | per year  |free  | N/A |
