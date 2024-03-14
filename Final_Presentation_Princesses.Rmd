@@ -41,25 +41,6 @@ myBib <- ReadBib("./references.bib", check = FALSE)
 
 
 ---
-#Methodology
-##Sea level rise analysis
-###1.Synthetic Aperture Radar (SAR)
-<p style="font-size:1.1em;">SAR technology can provide high-resolution monitoring of surface changes and is especially suitable for monitoring land subsidence. By comparing SAR images at different points in time, small changes in ground elevation can be accurately measured.
----
-##Land subsidence monitoring
-###2.Interferometric Synthetic Aperture Radar (InSAR):
-<p style="font-size:1.1em;">InSAR technology uses the phase difference of two or more SAR images to calculate the ground subsidence rate and can also form an interference pattern. Once the interference pattern is formed, a grid of images is created, one image is selected as the original date, and the changes in other images relative to it are measured. By fitting each time series, the average displacement velocity of each pixel over the desired time interval is obtained. This gives the average annual displacement (Moradi et al., 2023).
-<figure>
-<img src="figures/figure2.png" width="50%" style="display: block; margin: auto;" /><figcaption>Example of ground displacement map changes. Source: Moradi et al. (2023)</figcaption>
-<figure>
----
-##Sea Level Change Monitoring
-###Jason3
-<p style="font-size:1.0em;">Obtain sea level data from the Jason-3 satellite through NASA, NOAA or related data centers. Jason-3 can accurately measure the height of global sea levels and provide important data for climate change research. Use GIS and analyze this data to identify sea level trends in Jakarta and its surrounding areas. Combining sea level data and climate models to predict sea level changes in Jakarta in the coming years and decades. Assess the potential impacts of sea level rise on Jakarta, including the risk of flooding in low-lying areas, seawater erosion and saltwater intrusion.
-<figure>
-<img src="figures/jason3.jpeg" width="50%" style="display: block; margin: auto;" /><figcaption>Example of the first Jason-3 map. Source: NASA Sea Level Change Portal (n.d.)</figcaption>
-<figure>
----
 class: center, middle
 #Data Colloction
 ---
@@ -79,9 +60,29 @@ class: center, middle
 | Land subsidence | SAR Sentinel 1A  | 10m | weekly | free | Harmonic Analysis, Method of Least Squares `r Citet(myBib, 'siregar2019monitoring')` |
 | Rainfall  | Climate Change Knowledge Portal    | mm  | per year  |free  | N/A |
 ---
+#Methodology
+##Sea level rise analysis
+###1.Synthetic Aperture Radar (SAR)
+<p style="font-size:1.1em;">SAR technology can provide high-resolution monitoring of surface changes and is especially suitable for monitoring land subsidence. By comparing SAR images at different points in time, small changes in ground elevation can be accurately measured.
+---
+##Land subsidence monitoring
+###2.Interferometric Synthetic Aperture Radar (InSAR):
+<p style="font-size:1.1em;">InSAR technology uses the phase difference of two or more SAR images to calculate the ground subsidence rate and can also form an interference pattern. Once the interference pattern is formed, a grid of images is created, one image is selected as the original date, and the changes in other images relative to it are measured. By fitting each time series, the average displacement velocity of each pixel over the desired time interval is obtained. This gives the average annual displacement `r Citet(myBib, 'Moradi2023')` .
+<figure>
+<img src="figures/figure2.png" width="50%" style="display: block; margin: auto;" /><figcaption>Example of ground displacement map changes. Source: Moradi et al. (2023)</figcaption>
+<figure>
+---
+##Sea Level Change Monitoring
+###Jason3
+<p style="font-size:1.0em;">Obtain sea level data from the Jason-3 satellite through NASA, NOAA or related data centers. Jason-3 can accurately measure the height of global sea levels and provide important data for climate change research. Use GIS and analyze this data to identify sea level trends in Jakarta and its surrounding areas. Combining sea level data and climate models to predict sea level changes in Jakarta in the coming years and decades. Assess the potential impacts of sea level rise on Jakarta, including the risk of flooding in low-lying areas, seawater erosion and saltwater intrusion.
+<figure>
+<img src="figures/jason3.jpeg" width="50%" style="display: block; margin: auto;" /><figcaption>Example of the first Jason-3 map. Source: `r Citet(myBib, 'NASASeaLevelPortal')`  </figcaption>
+<figure>
+---
+
 #Project Gantt Chart
 <figure>
-<img src="figures/Gantt.png" width="100%" style="display: block; margin: auto;" /><figcaption>Gantt Chart of Whole Project</figcaption>
+<img src="figures/Gantt.png" width="100%" style="display: block; margin: auto;" /><figcaption>Gantt Chart of Whole Project. Timeline: 2025.01-2025.10</figcaption>
 <figure>
 ---
 # Budget-Employees
@@ -95,9 +96,14 @@ class: center, middle
 ---
 # Summary
 ## Final suggestions：
+* Keeping using remote sensing to detect land subsidence and sea level rise.
+* Setting strict water resource management policies.
+* Limiting the exploitation of groundwater.
+* Providing more and better green spaces
+* Limiting traffic and industrial emissions.
 
-
-
+## Final Costs：
+£32,000/£50,000  
 ---
 # Risks and Limitations
 .pull-left[
@@ -122,3 +128,13 @@ class: center, middle
 
   
 ]
+---
+#References
+
+```{r results='asis', echo=FALSE}
+
+
+PrintBibliography(myBib)
+
+```
+
