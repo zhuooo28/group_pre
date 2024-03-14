@@ -12,40 +12,32 @@ output:
       countIncrementalSlides: false
 ---
 
-# Budget-
-
-```{r echo=FALSE, message=FALSE}
-library(readr)
-library(knitr)
-table1<- read_csv("pre1.csv")
-kable(table1, "html")
-table2<- read_csv("pre2.csv")
-kable(table2, "html")
-```
-
+# Budget-Employees
+![](img/table1.jfif)
 ---
-# Budget-Governance Projects 
-```{r echo=FALSE, message=FALSE}
-library(readr)
-library(knitr)
-table2<- read_csv("pre2.csv")
-kable(table2, "html")
-```
+# Budget-Projects 
+
+![](img/table2.jfif)
+
 
 ---
 # Summary
-Final suggestions
+## Final suggestions：
+
+
 
 ---
 # Risks and Limitations
 .pull-left[
   Risks:
   
-1. List
+1. Financial Constraints
 
-1. List 
+1. Technical Challenges
 
-1.
+1. Environmental Impacts
+
+1. Long-term Sustainability
   
 ]
 
@@ -56,6 +48,5 @@ Final suggestions
 
 1. Data time limitations.
 
-1.
   
 ]
