@@ -1,7 +1,4 @@
 ---
-title: "Land Subsidence and Sea Level Rise Analysis in Jakarta"
-subtitle: "CASA0023 Group Presentation"
-author: "Group: Princesses"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -9,9 +6,17 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      
 ---
-class: center, middle
+class: center, title-slide,middle
+background-image:url("figures/Jakarta3.jpeg")
+background-size:cover
+background-position: center
 
+# Land Subsidence and Sea Level Rise Analysis in Jakarta
+## <br/>CASA0023 Group Presentation
+### <br/>Group: Princesses
+---
 ```{r setup, include=FALSE}
 library(RefManageR)
 library(knitcitations)
@@ -35,12 +40,6 @@ myBib <- ReadBib("./references.bib", check = FALSE)
 ![Approach](figures/approach.png)
 
 ---
-# Methodology
-![Methodology](figures/methodology.png)
-
-
-
----
 class: center, middle
 #Data Colloction
 ---
@@ -60,8 +59,11 @@ class: center, middle
 | Land subsidence | SAR Sentinel 1A  | 10m | weekly | free | Harmonic Analysis, Method of Least Squares `r Citet(myBib, 'siregar2019monitoring')` |
 | Rainfall  | Climate Change Knowledge Portal    | mm  | per year  |free  | N/A |
 ---
+# Methodology
+![Methodology](figures/methodology.png)
+---
 #Methodology
-##Sea level rise analysis
+##Land subsidence monitoring
 ###1.Synthetic Aperture Radar (SAR)
 <p style="font-size:1.1em;">SAR technology can provide high-resolution monitoring of surface changes and is especially suitable for monitoring land subsidence. By comparing SAR images at different points in time, small changes in ground elevation can be accurately measured.
 ---
