@@ -1,0 +1,48 @@
+---
+title: "Presentation Jakarta"
+subtitle: "Jakarta -- the sinking capital city "
+author: "Zihan Liu "
+institute: "RStudio"
+date: "2024/03/13"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+background-image: url(https://static.nationalgeographic.co.uk/files/styles/image_3200/public/001b_06-20211117-selects.webp?w=1600&h=900)
+background-position: 50% 50%
+class: center, bottom, inverse
+
+# “In the late afternoon, I used to see people having fun on the beach. There are those who played football and only returned home after sunset,” the 87-year-old recalled fondly “It’s gone … The waves pounded and slowly washed away the sand … It’s sad.” 
+
+---
+
+# Sea level rises and land subsidence
+
+![](https://ichef.bbci.co.uk/news/976/cpsprodpb/14672/production/_100807538_pakai5.jpg.webp){width=30%}
+Jakarta is the capital and largest city of Indonesia, as well as the country's economic, cultural and political center, located on the northwest coast of Java. However it will sink within 25 years according to expert's prediction.
+
+---
+# Flooding
+
+![](https://eastasiaforum.org/wp-content/uploads/2021/07/2021-02-20T093435Z_1506832548_RC29WL92PSZJ_RTRMADP_3_INDONESIA-FLOODS-min-600x400.jpg){width=30%}
+
+---
+class: inverse, middle, center
+
+The northern part of Jakarta is a plain with a tropical monsoon climate, which is hot and rainy all year round, so flooding occurs frequently, and therefore it is also one of the earlier of the major cities to face the problem of sea level rise, and with the earth's climate change brought about and overdevelopment, the land in North Jakarta faces serious water-logging problems.
+
+As global temperatures rise and ice sheets melt, many coastal cities are at increasing risk of flooding from rising sea levels. However, few places face such challenges as the Jakarta metropolitan area. Flood-prone Jakarta is the fastest sinking city in the world, at 10 centimeters per year. In parts of North Jakarta that are particularly vulnerable to flooding, the ground has sunk by 2.5 meters in 10 years. Jakarta's flooding problems have become more severe in recent decades, in part due to the massive pumping of groundwater, which is causing the land to sink or settle rapidly. It is estimated that as much as 40 percent of Jakarta is now below sea level. There are indications that as the atmosphere heats up, heavy rains are becoming more intense and destructive flooding has become commonplace.
+
+---
+
+The picture below shows the evolution of the city over the past three decades. The widespread replacement of forests and other vegetation with impervious surfaces in inland areas along the Ciliwung and Cisadane rivers has reduced how much water the landscape can absorb, contributing to runoff and flash floods.
+
+<div style="display: flex; justify-content: space-around;">
+  <img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/148000/148303/jakarta_tm5_1990191.jpg" style="max-width: 45%; height: auto; margin-right: 10px;">
+  <img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/148000/148303/jakarta_oli_2019254.jpg" style="max-width: 45%; height: auto; margin-left: 10px;">
+</div>
+---
