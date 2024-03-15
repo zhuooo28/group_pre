@@ -1,9 +1,9 @@
 ---
 title: "Presentation Jakarta"
 subtitle: "Jakarta -- the sinking capital city "
-author: "Yongying Tan, Zihan Liu, Xiaoyun Gong, Yizhuo Shi, Jinyao, Liu "
+author: "Zihan Liu"
 institute: "RStudio"
-date: "2024/03/13"
+date: "2024/03/15"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -18,6 +18,7 @@ output:
 <br/>
 <br/>
 <br/>
+
 
 Here we find The Agendas: 
 
@@ -65,6 +66,16 @@ Implementing effective water management to reduce groundwater extraction can ali
 <br/>
 
 Investing in green infrastructure and planting trees will mitigate subsidence and enhance urban resilience, aligning with global climate action and sustainable city planning. It is obvious from the picture before that the greenery has been replaced by city land.
+
+---
+## Benefits of greenery
+
+A canopy of leaves, branches and trunks slows down the rain before it hits the ground simply by getting in the way. In addition, root systems help water penetrate deeper into the soil at a faster rate under and around trees.
+
+
+```{r echo=FALSE, out.width='50%', fig.show='hold', fig.align= 'right'}
+knitr::include_graphics("https://www.mwmo.org/wp-content/uploads/2017/03/trees-and-stormwater-diagram-basic-v2-nb.png")
+```
 ---
 
 # Reducing emissions

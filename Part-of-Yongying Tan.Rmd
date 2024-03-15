@@ -1,0 +1,60 @@
+---
+title: "Presentation Jakarta"
+subtitle: "Jakarta -- the sinking capital city "
+author: "Yongying Tan, Zihan Liu, Xiaoyun Gong, Yizhuo Shi, Jinyao, Liu "
+institute: "RStudio"
+date: "2024/03/13"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+background-image: url(https://static.nationalgeographic.co.uk/files/styles/image_3200/public/001b_06-20211117-selects.webp?w=1600&h=900)
+background-position: 50% 50%
+class: center, bottom, inverse
+
+# “In the late afternoon, I used to see people having fun on the beach. There are those who played football and only returned home after sunset,” the 87-year-old recalled fondly “It’s gone … The waves pounded and slowly washed away the sand … It’s sad.” 
+
+
+---
+## Research questions & Goals 
+
+<br/>
+<br/>
+<br/>
+
+* Investigate the climatic and anthropogenic causes of sea level rise and land subsidence.
+
+* Monitoring and assessment of the causes of abnormal sea level rise and risk analysis.
+
+* Consider limitations and make recommendations to mitigate ground settlement.
+
+---
+# Why sea level rise?
+
+```{r echo=FALSE,fig.cap= "Source from:https://en-gb.topographic-map.com/map-tdwf3/Special-Capital-Region-of-Jakarta/?center=-6.65097%2C107.04254"}
+
+knitr::include_graphics('Jakarta.png')
+
+```
+
+---
+## Land subsidence and Flooding
+
+```{r echo=FALSE, fig.align='center', fig.cap="Source from: Figueroa-Miranda et al.(2018)"}
+knitr::include_graphics("Piccc.jpeg")
+```
+
+---
+
+# Loss of vegetation
+
+The picture below shows the evolution of the city over the past three decades. The widespread replacement of forests and other vegetation with impervious surfaces in inland areas along the Ciliwung and Cisadane rivers has reduced how much water the landscape can absorb, contributing to runoff and flash floods.
+
+<div style="display: flex; justify-content: space-around;">
+  <img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/148000/148303/jakarta_tm5_1990191.jpg" style="max-width: 45%; height: auto; margin-right: 10px;">
+  <img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/148000/148303/jakarta_oli_2019254.jpg" style="max-width: 45%; height: auto; margin-left: 10px;">
+</div>
