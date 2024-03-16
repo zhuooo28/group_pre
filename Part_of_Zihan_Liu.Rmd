@@ -1,0 +1,106 @@
+---
+title: "Presentation Jakarta"
+subtitle: "Jakarta -- the sinking capital city "
+author: "Zihan Liu"
+institute: "RStudio"
+date: "2024/03/15"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+# Improving Compliance/Adherence with Development Agendas/Goals:
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+Here we find The Agendas: 
+
+Integrated Flood Safety Plan (IFSP)
+
+Strategy for Air Pollution Control (SPPU)
+
+
+
+---
+
+# Three methods:
+
+<div style="display: flex; justify-content: space-around;">
+  <div style="max-width: 30%; text-align: center; margin-right: 5px;">
+    <img src="./water management.png" style="max-width: 80%; height: auto; margin-right: 5px;">
+   <p>Water management to reduce groundwater extraction</p>
+</div>
+  <div style="max-width: 30%; text-align: center; margin-right: 5px;">
+    <img src="./greenery.jpg" style="max-width: 80%; height: auto; margin-right: 5px;">
+    <p>Add more green plants to improve the environment</p>
+</div>
+  <div style="max-width: 30%; text-align: center; margin-right: 5px;">
+    <img src="./emission.jpg" style="max-width: 80%; height: auto; margin-left: 5px;">
+    <br/>
+    <br/>
+    <br/>
+    <p>Reducing emissions</p>
+</div>
+---
+
+# Water management to reduce groundwater extraction
+
+
+<br/>
+<br/>
+
+Implementing effective water management to reduce groundwater extraction can align with sustainable urban development goals. As the widespread pumping of groundwater is the human factor of sinking and flooding, it is necessary to pretend residents from doing it and worsen the situation. Jakarta could also mitigate the situation through desalination of seawater in pilot areas.
+
+---
+
+# Add more green plants to improve the environment
+
+<br/>
+<br/>
+
+Investing in green infrastructure and planting trees will mitigate subsidence and enhance urban resilience, aligning with global climate action and sustainable city planning. It is obvious from the picture before that the greenery has been replaced by city land.
+
+---
+## Benefits of greenery
+
+A canopy of leaves, branches and trunks slows down the rain before it hits the ground simply by getting in the way. In addition, root systems help water penetrate deeper into the soil at a faster rate under and around trees.
+
+
+```{r echo=FALSE, out.width='50%', fig.show='hold', fig.align= 'right'}
+knitr::include_graphics("https://www.mwmo.org/wp-content/uploads/2017/03/trees-and-stormwater-diagram-basic-v2-nb.png")
+```
+---
+
+# Reducing emissions
+
+<br/>
+<br/>
+
+Focusing on 
+
+1) governing air pollution controls
+
+2) reducing emissions from mobile sources
+
+3) reducing emissions from stationary sources
+
+---
+
+# Benefits to City and Its Population:
+
+<br/>
+<br/>
+
+Reducing land subsidence and controlling sea level rise would mitigate flooding risks, protecting homes and businesses.
+
+Improved infrastructure, like green spaces and flood defenses, can enhance the quality of life, reduce urban heat, and increase biodiversity.
+
+Efficient pollution management and cleaner air would lead to better public health and environmental quality.
+---
