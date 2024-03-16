@@ -59,17 +59,17 @@ class: center, bottom, inverse
 
 ```{r echo=FALSE,fig.cap= "Source from:https://en-gb.topographic-map.com/map-tdwf3/Special-Capital-Region-of-Jakarta/?center=-6.65097%2C107.04254"}
 
-knitr::include_graphics('Jakarta.png')
+knitr::include_graphics('figures/Jakarta.png')
 
 ```
 
 ---
 ## Land subsidence and Flooding
 
-```{r echo=FALSE, fig.align='center', fig.cap="Source from: Figueroa-Miranda et al.(2018)"}
-knitr::include_graphics("Piccc.jpeg")
+```{r echo=FALSE, fig.align='center'}
+knitr::include_graphics("figures/Piccc.jpeg")
 ```
-
+Source from: `r Citet(myBib, 'FIGUEROAMIRANDA201891')`
 ---
 
 # Loss of vegetation
@@ -137,13 +137,15 @@ Investing in green infrastructure and planting trees will mitigate subsidence an
 
 ---
 ## Benefits of greenery
+.pull-left[
+<p style="font-size:1.4em;"><br/>A canopy of leaves, branches and trunks slows down the rain before it hits the ground simply by getting in the way. In addition, root systems help water penetrate deeper into the soil at a faster rate under and around trees.`r Citet(myBib, 'WoodlandTrustFlooding')`]
 
-A canopy of leaves, branches and trunks slows down the rain before it hits the ground simply by getting in the way. In addition, root systems help water penetrate deeper into the soil at a faster rate under and around trees.
-
-
-```{r echo=FALSE, out.width='50%', fig.show='hold', fig.align= 'right'}
+.pull-right[
+<br/>
+```{r echo=FALSE, out.width='80%', fig.show='hold', fig.align= 'right'}
 knitr::include_graphics("https://www.mwmo.org/wp-content/uploads/2017/03/trees-and-stormwater-diagram-basic-v2-nb.png")
 ```
+]
 ---
 
 # Reducing emissions
@@ -158,7 +160,7 @@ Focusing on
 2) reducing emissions from mobile sources
 
 3) reducing emissions from stationary sources
-
+`r Citet(myBib, 'UrbanLinksJakartaPollution')`
 ---
 
 # Benefits to City and Its Population:
@@ -174,6 +176,9 @@ Efficient pollution management and cleaner air would lead to better public healt
 ---
 
 # Approach
+<br/>
+<br/>
+<br/>
 ![Approach](figures/approach.png)
 
 ---
@@ -197,10 +202,14 @@ class: center, middle
 | Rainfall  | Climate Change Knowledge Portal    | mm  | per year  |free  | N/A |
 ---
 # Methodology
+<br/>
+<br/>
 ![Methodology](figures/methodology.png)
 ---
 #Methodology
 ##Land subsidence monitoring
+<br/>
+<br/>
 ###1.Synthetic Aperture Radar (SAR)
 <p style="font-size:1.1em;">SAR technology can provide high-resolution monitoring of surface changes and is especially suitable for monitoring land subsidence. By comparing SAR images at different points in time, small changes in ground elevation can be accurately measured.
 ---
@@ -228,7 +237,9 @@ class: center, middle
 ![](figures/table1.png)
 ---
 # Budget-Projects 
-
+<br/>
+<br/>
+<br/>
 ![](figures/table2.png)
 
 
