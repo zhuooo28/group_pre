@@ -34,7 +34,144 @@ BibOptions(check.entries = FALSE,
 myBib <- ReadBib("./references.bib", check = FALSE)
 
 ```
+background-image: url(https://static.nationalgeographic.co.uk/files/styles/image_3200/public/001b_06-20211117-selects.webp?w=1600&h=900)
+background-position: 50% 50%
+class: center, bottom, inverse
 
+# “In the late afternoon, I used to see people having fun on the beach. There are those who played football and only returned home after sunset,” the 87-year-old recalled fondly “It’s gone … The waves pounded and slowly washed away the sand … It’s sad.” 
+
+
+---
+## Research questions & Goals 
+
+<br/>
+<br/>
+<br/>
+
+* Investigate the climatic and anthropogenic causes of sea level rise and land subsidence.
+
+* Monitoring and assessment of the causes of abnormal sea level rise and risk analysis.
+
+* Consider limitations and make recommendations to mitigate ground settlement.
+
+---
+# Why sea level rise?
+
+```{r echo=FALSE,fig.cap= "Source from:https://en-gb.topographic-map.com/map-tdwf3/Special-Capital-Region-of-Jakarta/?center=-6.65097%2C107.04254"}
+
+knitr::include_graphics('Jakarta.png')
+
+```
+
+---
+## Land subsidence and Flooding
+
+```{r echo=FALSE, fig.align='center', fig.cap="Source from: Figueroa-Miranda et al.(2018)"}
+knitr::include_graphics("Piccc.jpeg")
+```
+
+---
+
+# Loss of vegetation
+
+The picture below shows the evolution of the city over the past three decades. The widespread replacement of forests and other vegetation with impervious surfaces in inland areas along the Ciliwung and Cisadane rivers has reduced how much water the landscape can absorb, contributing to runoff and flash floods.
+
+<div style="display: flex; justify-content: space-around;">
+  <img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/148000/148303/jakarta_tm5_1990191.jpg" style="max-width: 45%; height: auto; margin-right: 10px;">
+  <img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/148000/148303/jakarta_oli_2019254.jpg" style="max-width: 45%; height: auto; margin-left: 10px;">
+</div>
+---
+# Improving Compliance/Adherence with Development Agendas/Goals:
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+Here we find The Agendas: 
+
+Integrated Flood Safety Plan (IFSP)
+
+Strategy for Air Pollution Control (SPPU)
+
+
+
+---
+
+# Three methods:
+
+<div style="display: flex; justify-content: space-around;">
+  <div style="max-width: 30%; text-align: center; margin-right: 5px;">
+    <img src="./water management.png" style="max-width: 80%; height: auto; margin-right: 5px;">
+   <p>Water management to reduce groundwater extraction</p>
+</div>
+  <div style="max-width: 30%; text-align: center; margin-right: 5px;">
+    <img src="./greenery.jpg" style="max-width: 80%; height: auto; margin-right: 5px;">
+    <p>Add more green plants to improve the environment</p>
+</div>
+  <div style="max-width: 30%; text-align: center; margin-right: 5px;">
+    <img src="./emission.jpg" style="max-width: 80%; height: auto; margin-left: 5px;">
+    <br/>
+    <br/>
+    <br/>
+    <p>Reducing emissions</p>
+</div>
+---
+
+# Water management to reduce groundwater extraction
+
+
+<br/>
+<br/>
+
+Implementing effective water management to reduce groundwater extraction can align with sustainable urban development goals. As the widespread pumping of groundwater is the human factor of sinking and flooding, it is necessary to pretend residents from doing it and worsen the situation. Jakarta could also mitigate the situation through desalination of seawater in pilot areas.
+
+---
+
+# Add more green plants to improve the environment
+
+<br/>
+<br/>
+
+Investing in green infrastructure and planting trees will mitigate subsidence and enhance urban resilience, aligning with global climate action and sustainable city planning. It is obvious from the picture before that the greenery has been replaced by city land.
+
+---
+## Benefits of greenery
+
+A canopy of leaves, branches and trunks slows down the rain before it hits the ground simply by getting in the way. In addition, root systems help water penetrate deeper into the soil at a faster rate under and around trees.
+
+
+```{r echo=FALSE, out.width='50%', fig.show='hold', fig.align= 'right'}
+knitr::include_graphics("https://www.mwmo.org/wp-content/uploads/2017/03/trees-and-stormwater-diagram-basic-v2-nb.png")
+```
+---
+
+# Reducing emissions
+
+<br/>
+<br/>
+
+Focusing on 
+
+1) governing air pollution controls
+
+2) reducing emissions from mobile sources
+
+3) reducing emissions from stationary sources
+
+---
+
+# Benefits to City and Its Population:
+
+<br/>
+<br/>
+
+Reducing land subsidence and controlling sea level rise would mitigate flooding risks, protecting homes and businesses.
+
+Improved infrastructure, like green spaces and flood defenses, can enhance the quality of life, reduce urban heat, and increase biodiversity.
+
+Efficient pollution management and cleaner air would lead to better public health and environmental quality.
+---
 
 # Approach
 ![Approach](figures/approach.png)
