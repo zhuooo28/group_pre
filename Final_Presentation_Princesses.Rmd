@@ -120,12 +120,8 @@ Strategy for Air Pollution Control (SPPU)
 
 # Water management to reduce groundwater extraction
 
-
-<br/>
-<br/>
-
 Implementing effective water management to reduce groundwater extraction can align with sustainable urban development goals. As the widespread pumping of groundwater is the human factor of sinking and flooding, it is necessary to pretend residents from doing it and worsen the situation. Jakarta could also mitigate the situation through desalination of seawater in pilot areas.
-
+![water_management](figures/water_management.jpeg)
 ---
 
 # Add more green plants to improve the environment
